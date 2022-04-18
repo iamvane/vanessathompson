@@ -14,17 +14,17 @@ function App() {
               <div className="collapse navbar-collapse" id="navbarsExample03">
                 <ul className="navbar-nav ms-auto mb-2 mb-sm-0 me-sm-3">
                   <li className="nav-item">
-                    <a className="nav-link" href="/">
+                    <a className="nav-link" href="#about">
                       About
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/about">
+                    <a className="nav-link" href="#experience">
                       Experience
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="mailto:vcharlesthompson@gmail.com">
+                    <a className="nav-link" href="#contact">
                       Contact
                     </a>
                   </li>
@@ -48,7 +48,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section>
+      <section id="about">
         <div className="container about-wrapper">
           <div className="row py-5 px-4">
             <div className="col-md-6 pt-5 intro-wrapper">
@@ -71,7 +71,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section>
+      <section id="experience">
         <div className="container about-wrapper experience-wrapper">
           <div className="row py-5 px-4 justify-content-center">
             <div className="col-md-8 pt-5 intro-wrapper">
@@ -182,7 +182,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section>
+      <section id="contact">
         <div className="container about-wrapper">
           <div className="row py-5 px-4 justify-content-center text-center">
             <div className="col-md-6 pt-5 intro-wrapper">
