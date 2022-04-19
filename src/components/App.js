@@ -29,7 +29,7 @@ function App() {
                   </a>
                 </li>
                 <li className="nav-item ms-sm-3">
-                  <a href="https://drive.google.com/file/d/15P0eU4WogNpNR-N-VqqW_T096aEHDL_J/view?usp=sharing" target="_blank" className="btn btn-outline-dark me-2">Resume</a>
+                  <a href="https://drive.google.com/file/d/15P0eU4WogNpNR-N-VqqW_T096aEHDL_J/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-outline-dark me-2">Resume</a>
                 </li>
               </ul>
             </div>
@@ -53,7 +53,7 @@ function App() {
           <div className="row py-5 px-4">
             <div className="col-md-6 pt-5 intro-wrapper">
               <h1 className="mb-4">About me</h1>
-              <p>Hello! My name is Vanessa and I enjoy creating things that live on the internet. My interest in web development started back in 2015 when I came up with the idea of <a herf="https://www.facebook.com/nabimusicinfo/">Nabi Music</a>, a marketplace for facilitating music education.</p>
+              <p>Hello! My name is Vanessa and I enjoy creating things that live on the internet. My interest in web development started back in 2015 when I came up with the idea of <a href="https://www.facebook.com/nabimusicinfo/">Nabi Music</a>, a marketplace for facilitating music education.</p>
               <p>Fast-forward to today, I've had the privilege of working at a <a className="app-link text-white-50" href="https://www.linkedin.com/company/coconecta/">fast-growing startup</a>, a <a className="app-link text-white-50" href="https://www.oracle.com/index.html">huge corporation</a>, and a <a className="app-link text-white-50" href="https://nftylabs.org/">crypto company</a>. My main focus now is to grow as a successful javascript engineer and build interfaces that help users easily achieve what they want. As a <a className="app-link text-white-50" href="https://teamtreehouse.com/vanecharles">Treehouse</a> student I'm constantly improving my skills and keeping up to date with technology changes.</p>
               <p>Here are some technologies I've been working with recently:</p>
               <ul className="skills-list general-list">
@@ -66,7 +66,7 @@ function App() {
               </ul>
             </div>
             <div className="col-md-6 pt-5 intro-wrapper text-center">
-              <img className="img-fluid headshot" src={require('../img/headshot.jpg')} />
+              <img className="img-fluid headshot" alt="Vanessa's headshot" src={require('../img/headshot.jpg')} />
             </div>
           </div>
         </div>
@@ -194,10 +194,10 @@ function App() {
         </div>
       </section>
       <footer className="text-center pt-5 mt-4">
-        <a target="_blank" className="p-2 text-black-50" href="https://github.com/iamvane"><i class="fa-brands fa-github"></i></a>
-        <a target="_blank" className="p-2 text-black-50" href="https://www.instagram.com/coolnblessed/"><i class="fa-brands fa-instagram"></i></a>
-        <a target="_blank" className="p-2 text-black-50" href="https://twitter.com/VaneCharles/"><i class="fa-brands fa-twitter"></i></a>
-        <a target="_blank" className="p-2 text-black-50" href="https://www.linkedin.com/in/vanessacharlesnabi/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a target="_blank" rel="noreferrer" className="p-2 text-black-50" href="https://github.com/iamvane"><i class="fa-brands fa-github"></i></a>
+        <a target="_blank" rel="noreferrer" className="p-2 text-black-50" href="https://www.instagram.com/coolnblessed/"><i class="fa-brands fa-instagram"></i></a>
+        <a target="_blank" rel="noreferrer" className="p-2 text-black-50" href="https://twitter.com/VaneCharles/"><i class="fa-brands fa-twitter"></i></a>
+        <a target="_blank" rel="noreferrer" className="p-2 text-black-50" href="https://www.linkedin.com/in/vanessacharlesnabi/"><i class="fa-brands fa-linkedin-in"></i></a>
         <p className="text-center pt-3 pb-5 text-black-50">Designed & Built by Vanessa Thompson</p>
       </footer>
     </div>
